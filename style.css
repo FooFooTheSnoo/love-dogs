@@ -1,0 +1,53 @@
+header {
+    background: rebeccapurple;
+    font-weight: bold;
+    font-size: 30px;
+    color: ivory;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+main {
+    font-size: 20px;
+}
+section img {
+    width: 100%;
+    padding: 40px;
+
+   
+}
+
+section {
+    font-size: 20px;
+    }
+
+p {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    background: burlywood;
+
+}
+
+nav li {
+display: inline-block;
+padding: 5px 10px;
+font-size: 15px;
+
+}
+
+nav li {
+    font-size: 20px;
+}
+
+footer {
+    padding: 15px;
+    font-size: large;
+}
+
+
