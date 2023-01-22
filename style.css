@@ -1,53 +1,103 @@
+
 header {
-    background: rebeccapurple;
-    font-weight: bold;
-    font-size: 30px;
-    color: ivory;
-    text-align: center;
-    padding: 10px;
-    
+    background: ivory;
 }
 
 main {
-    font-size: 20px;
-}
-section img {
-    width: 100%;
-    padding: 40px;
-
-   
+    background: beige;
 }
 
-section {
-    font-size: 20px;
-    }
-
-p {
+header h1 {
+    color: rgb(83, 63, 63);
+    font-weight: bold;
+    font-size: 35pt;
     text-align: center;
-}
-
-nav {
-    text-align: center;
-    font-size: 15px;
     padding: 15px;
-    background: burlywood;
+}
 
+header h1 a {
+    text-decoration: none;
+    color: rgb(83, 63, 63)
+}
+nav {
+    background: ivory;
+    text-align: center;
 }
 
 nav li {
-display: inline-block;
-padding: 5px 10px;
-font-size: 15px;
+    color: rgb(83, 63, 63);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav li:hover {
+    background: rgb(83, 63, 63);
+}
+
+nav li a {
+    color: rgb(83, 63, 63);
+    text-decoration: none;
+}
+
+nav li:hover a {
+    color: ivory;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+nav li:hover {
+    color: ivory;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(83, 63, 63);
+}
+
+section.lower {
+    display: inline-block;
+    margin: 20px;
+    color: rgb(83, 63, 63);
+    padding: 10px;
 
 }
 
-nav li {
+section.lower img {
+    width: 100%;
+    text-align: center;
+}
+
+section.lower ul a {
+    color: rgb(83, 63, 63);
+    text-decoration: none;
+}
+
+section.lower p {
+    font-style: italic;
+}
+
+section.content {
+    width: 90%;
+    margin: auto;
+}
+
+section.CTA {
+    text-align: center;
+    color: rgb(83, 63, 63);
     font-size: 20px;
+    padding: 10px;
 }
 
 footer {
-    padding: 15px;
-    font-size: large;
+    text-align: center;
+    padding: 10px;
 }
 
-
+section.bottom {
+    padding: 10px;
+    margin: 10px;
+}
