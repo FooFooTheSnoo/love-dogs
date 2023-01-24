@@ -1,23 +1,24 @@
 
 header {
-    background: ivory;
+    background: rebeccapurple;
 }
 
 main {
     background: beige;
 }
 
+
 header h1 {
-    color: rgb(83, 63, 63);
+    
     font-weight: bold;
-    font-size: 35pt;
+    font-size: 45pt;
     text-align: center;
     padding: 15px;
 }
 
 header h1 a {
     text-decoration: none;
-    color: rgb(83, 63, 63)
+    color: rgb(30, 1, 1)
 }
 nav {
     background: ivory;
@@ -25,8 +26,10 @@ nav {
 }
 
 nav li {
-    color: rgb(83, 63, 63);
+    color: rgb(30, 1, 1);
     display: inline-block;
+    font-weight: 400;
+    font-size: 25px;
     padding: 5px 10px;
 }
 
@@ -48,14 +51,11 @@ main {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 }
 
-section p {
-    text-align: center;
-    font-size: 22px;
-}
+
 nav li:hover {
     color: ivory;
 }
@@ -67,18 +67,24 @@ main h2 {
     color: rgb(83, 63, 63);
 }
 
+
+section.upper {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+section.lower p {
+    text-align: center;
+    font-size: 22px;
+}
+
 section.lower {
     display: inline-block;
     margin: 20px;
     color: rgb(83, 63, 63);
     padding: 10px;
 
-}
-
-section.lower img {
-    width: 400px;
-    text-align: center;
-    float: left;
 }
 
 section.lower ul a {
@@ -89,6 +95,8 @@ section.lower ul a {
 section.lower p {
     font-style: italic;
 }
+
+
 
 section.content {
     width: 90%;
@@ -105,6 +113,8 @@ section.CTA {
 footer {
     text-align: center;
     padding: 10px;
+    text-align: center;
+    font-size: 20px;
 }
 
 section.bottom {
