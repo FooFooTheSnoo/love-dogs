@@ -10,16 +10,16 @@ function volunteer() {
   let volunteer = prompt("Would you like volunteer at your local pet shelter? yes/no");
 
   if ( volunteer==="yes" ) {
-    alert("Please contact your local pet shelter to let them know!");
+    alert("Click the button on the home page!");
   }
 
   else if ( volunteer==="no" ) {
-    alert("Please consider volunteering at a later time! We would love your company!");
+    alert("If you change your mind, you can click the button on the home page that says 'Volunteer' ");
   }
 }
 
 function yesVolunteer() {
-confirm("Thank you for your deposit of 8 hours!")
+confirm("Thank you for your time deposit of 8 hours!")
 }
 
 
