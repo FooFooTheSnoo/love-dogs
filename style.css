@@ -67,6 +67,10 @@ main h2 {
     color: rgb(83, 63, 63);
 }
 
+button {
+    font-size: 20px;
+    margin: 15px;
+}
 
 section.upper {
     padding: 10px;

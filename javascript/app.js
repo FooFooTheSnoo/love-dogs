@@ -18,6 +18,10 @@ function volunteer() {
   }
 }
 
+function yesVolunteer() {
+confirm("Thank you for your deposit of 8 hours!")
+}
+
 
 function amountOfDogs() {
 
