@@ -10,11 +10,12 @@ function volunteer() {
   let volunteer = prompt("Would you like volunteer at your local pet shelter? yes/no");
 
   if ( volunteer==="yes" ) {
-    alert("Click the button on the home page!");
+    alert("Click the volunteer button on the home page!");
   }
 
   else if ( volunteer==="no" ) {
-    alert("If you change your mind, you can click the button on the home page that says 'Volunteer' ");
+    alert("Please reconsider");
+
   }
 }
 
@@ -43,4 +44,18 @@ function dogSex() {
   else {
     alert("Oops! Please try again!");
 }
+}
+
+function rateExperience() {
+
+  let rating = prompt("On a scale of 1-12, how was your adoption experience?");
+
+  while (rating < 6) {
+    rating = prompt("Surely it's not THAT bad!");
+    rating = Number(rating);
+  }
+  for (let i = 1; i <= rating; i++) {
+    document.write("🐶");
+  }
+
 }
